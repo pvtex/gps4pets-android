@@ -1,7 +1,6 @@
 # GPS4PETS Android App 
 based on [Traccar Manager for Android](https://www.traccar.org/manager)
 
-[![Get it on Google Play](http://www.tananaev.com/badges/google-play.svg)](https://play.google.com/store/apps/details?id=org.traccar.manager)
 
 ## Overview
 
