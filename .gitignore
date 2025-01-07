@@ -2,7 +2,7 @@
 .idea/
 local.properties
 *.iml
-/.hprof
+*.hprof
 build/
 app/src/main/assets
 .DS_Store
