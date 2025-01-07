@@ -1,14 +1,16 @@
-# [Traccar Manager for Android](https://www.traccar.org/manager)
+# GPS4PETS Android App 
+based on [Traccar Manager for Android](https://www.traccar.org/manager)
 
 [![Get it on Google Play](http://www.tananaev.com/badges/google-play.svg)](https://play.google.com/store/apps/details?id=org.traccar.manager)
 
 ## Overview
 
-Traccar Manager is a mobile application to manage GPS tracking devices. It requires a Traccar server instance to work.
+GPS4PETS is a mobile application to manage GPS tracking devices. It requires an abo with GPS4PETS.de to work.
 
 ## Team
 
 - Anton Tananaev ([anton@traccar.org](mailto:anton@traccar.org))
+- GPS4PETS ([info@gps4pets.de](mailto:info@gps4pets.de))
 
 ## License
 
