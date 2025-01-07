@@ -15,7 +15,7 @@ android {
         versionName '4.4'
         multiDexEnabled true
     }
-    namespace 'org.traccar.manager'
+    namespace 'de.gps4pets.app'
 
     buildFeatures {
         flavorDimensions = ['default']
