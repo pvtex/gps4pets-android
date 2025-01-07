@@ -36,4 +36,4 @@ jobs:
       if: always()
       with:
         name: build
-        path: /home/runner/work/gps4pets-android/gps4pets-android/app/build/*
+        path: /home/runner/work/gps4pets-android/gps4pets-android/
