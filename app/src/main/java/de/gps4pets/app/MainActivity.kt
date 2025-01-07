@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 @file:Suppress("DEPRECATION")
-package org.traccar.manager
+package de.gps4pets.app
 
 import android.content.Intent
 import android.os.Build

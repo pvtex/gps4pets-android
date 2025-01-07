@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:663463160438:android:255637d19e90f7039d8d57",
+        "mobilesdk_app_id": "1:663463160438:android:0f56a8000af0adf69d8d57",
         "android_client_info": {
-          "package_name": "org.traccar.manager"
+          "package_name": "de.gps4pets.app"
         }
       },
       "oauth_client": [],
