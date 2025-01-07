@@ -25,7 +25,10 @@ android {
             isDefault = true
             ext.enableCrashlytics = false
         }
-        google
+        google {
+            isDefault = false
+            ext.enableCrashlytics = false
+        }
     }
 
     compileOptions {
@@ -35,6 +38,11 @@ android {
 
     kotlinOptions {
         jvmTarget = JavaVersion.VERSION_17.toString()
+    }
+    buildTypes {
+        release {
+
+        }
     }
 }
 

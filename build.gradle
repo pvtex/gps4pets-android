@@ -12,6 +12,10 @@ buildscript {
     }
 }
 
+ext {
+    myValue = kotlin_version
+}
+
 allprojects {
     repositories {
         google()
