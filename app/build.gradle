@@ -6,6 +6,10 @@ plugins {
 }
 
 android {
+    signingConfigs {
+        production {
+        }
+    }
     compileSdk 35
     defaultConfig {
         applicationId 'de.gps4pets.app'

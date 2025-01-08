@@ -7,3 +7,4 @@ build/
 app/src/main/assets
 .DS_Store
 google-services.json
+app/google
