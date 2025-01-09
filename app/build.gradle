@@ -8,6 +8,10 @@ plugins {
 android {
     signingConfigs {
         production {
+        storeFile file('C:\\Users\\info\\Documents\\GPS4PETS\\GoogleKeyStore\\GPS4PETS.jks')
+            storePassword '?Ha1f1sch#'
+            keyAlias 'gps4pets'
+            keyPassword '?Ha1f1sch#'
         }
     }
     compileSdk 34
@@ -15,8 +19,8 @@ android {
         applicationId 'de.gps4pets.app'
         minSdkVersion 23
         targetSdkVersion 34
-        versionCode 45
-        versionName '4.5'
+        versionCode 48
+        versionName '4.8'
         multiDexEnabled true
     }
     namespace 'de.gps4pets.app'
@@ -26,11 +30,11 @@ android {
     }
     productFlavors {
         regular {
-            isDefault = true
+            isDefault = false
             ext.enableCrashlytics = false
         }
         google {
-            isDefault = false
+            isDefault = true
             ext.enableCrashlytics = false
         }
     }
@@ -46,6 +50,7 @@ android {
     buildTypes {
         release {
 
+        signingConfig signingConfigs.production
         }
     }
 }
