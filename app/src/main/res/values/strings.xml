@@ -9,4 +9,5 @@
     <string name="permission_location_rationale">App requires location permission to show current location on the map</string>
     <string name="biometric_title">Biometric login</string>
     <string name="biometric_cancel">Use account password</string>
+    <string name="server_url">https://track.gps4pets.de</string>
 </resources>

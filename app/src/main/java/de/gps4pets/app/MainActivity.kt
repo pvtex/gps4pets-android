@@ -68,6 +68,7 @@ class MainActivity : AppCompatActivity() {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
     }
 
+    @Deprecated("Deprecated in Java")
     override fun onBackPressed() {
         val fragment = fragmentManager.findFragmentById(android.R.id.content) as? WebViewFragment
         if (fragment?.webView?.canGoBack() == true) {

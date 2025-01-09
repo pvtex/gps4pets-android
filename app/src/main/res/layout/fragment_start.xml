@@ -28,12 +28,12 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/label_name"
         android:layout_marginStart="@dimen/spacing_normal"
-        android:layout_marginLeft="@dimen/spacing_normal"
         android:layout_marginTop="@dimen/spacing_normal"
         android:layout_toEndOf="@+id/label_server"
-        android:layout_toRightOf="@+id/label_server"
+        android:autofillHints="@string/server_url"
+        android:hint="@string/server_url"
         android:inputType="text"
-        android:text="https://track.gps4pets.de" />
+        android:text="@string/server_url" />
 
     <TextView
         android:id="@+id/label_info"

@@ -66,11 +66,13 @@ class MainFragment : WebViewFragment() {
         }
     }
 
+    @Deprecated("Deprecated in Java")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         broadcastManager = LocalBroadcastManager.getInstance(activity)
     }
 
+    @Deprecated("Deprecated in Java")
     @SuppressLint("SetJavaScriptEnabled")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -124,6 +126,7 @@ class MainFragment : WebViewFragment() {
         }
     }
 
+    @Deprecated("Deprecated in Java")
     override fun onStart() {
         super.onStart()
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU &&
@@ -140,6 +143,7 @@ class MainFragment : WebViewFragment() {
         broadcastManager.registerReceiver(eventIdBroadcastReceiver, IntentFilter(EVENT_EVENT))
     }
 
+    @Deprecated("Deprecated in Java")
     override fun onStop() {
         super.onStop()
         broadcastManager.unregisterReceiver(tokenBroadcastReceiver)
@@ -149,6 +153,7 @@ class MainFragment : WebViewFragment() {
     private var openFileCallback: ValueCallback<Uri?>? = null
     private var openFileCallback2: ValueCallback<Array<Uri>>? = null
 
+    @Deprecated("Deprecated in Java")
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         if (requestCode == REQUEST_FILE_CHOOSER) {
             val result = if (resultCode != Activity.RESULT_OK) null else data?.data
@@ -163,6 +168,7 @@ class MainFragment : WebViewFragment() {
         }
     }
 
+    @Deprecated("Deprecated in Java")
     override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<String>, grantResults: IntArray) {
         if (requestCode == REQUEST_PERMISSIONS_LOCATION) {
             val granted = grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED

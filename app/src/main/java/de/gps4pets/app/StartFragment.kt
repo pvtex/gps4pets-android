@@ -42,6 +42,7 @@ class StartFragment : Fragment(), View.OnClickListener {
     private lateinit var serverField: EditText
     private lateinit var startButton: Button
 
+    @Deprecated("Deprecated in Java")
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val view = inflater.inflate(R.layout.fragment_start, container, false)
         serverField = view.findViewById(R.id.field_server)
@@ -54,6 +55,7 @@ class StartFragment : Fragment(), View.OnClickListener {
     override fun onClick(view: View) {
         startButton.isEnabled = false
         object : AsyncTask<String, Unit, Boolean>() {
+            @Deprecated("Deprecated in Java")
             override fun doInBackground(vararg urls: String): Boolean {
                 try {
                     val uri = Uri.parse(urls[0]).buildUpon().appendEncodedPath("api/server").build()
@@ -87,6 +89,7 @@ class StartFragment : Fragment(), View.OnClickListener {
                 return false
             }
 
+            @Deprecated("Deprecated in Java")
             override fun onPostExecute(result: Boolean) {
                 if (activity != null) {
                     if (result) {
