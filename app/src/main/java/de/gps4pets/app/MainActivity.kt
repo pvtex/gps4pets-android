@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
         } else {
             // fragmentManager.beginTransaction().add(android.R.id.content, StartFragment()).commit()
             PreferenceManager.getDefaultSharedPreferences(this)
-                .edit().putString(MainActivity.PREFERENCE_URL, "https://track.gps4pets.de").apply()
+                .edit().putString(PREFERENCE_URL, "https://track.gps4pets.de").apply()
             this.fragmentManager
                 .beginTransaction().replace(android.R.id.content, MainFragment())
                 .commitAllowingStateLoss()

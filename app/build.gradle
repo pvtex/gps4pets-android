@@ -8,7 +8,7 @@ plugins {
 android {
     signingConfigs {
         production {
-        storeFile file('C:\\Users\\info\\Documents\\GPS4PETS\\GoogleKeyStore\\GPS4PETS.jks')
+            storeFile file('C:\\Users\\info\\Documents\\GPS4PETS\\GoogleKeyStore\\GPS4PETS.jks')
             storePassword '?Ha1f1sch#'
             keyAlias 'gps4pets'
             keyPassword '?Ha1f1sch#'
