@@ -9,3 +9,4 @@ app/src/main/assets
 google-services.json
 app/google
 app/build.gradle
+app/google-services.json
