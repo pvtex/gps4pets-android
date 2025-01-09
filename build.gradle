@@ -4,6 +4,23 @@ buildscript {
         google()
         mavenCentral()
     }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.android.tools.build:gradle:8.7.3'
+        classpath 'com.google.gms:google-services:4.4.2'
+        classpath 'com.google.firebase:firebase-crashlytics-gradle:3.0.2'
+    }
+}
+
+ext {
+    myValue = kotlin_version
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
     android {
         signingConfigs {
             production {
@@ -53,22 +70,5 @@ buildscript {
                 signingConfig signingConfigs.production
             }
         }
-    }
-    dependencies {
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-        classpath 'com.android.tools.build:gradle:8.7.3'
-        classpath 'com.google.gms:google-services:4.4.2'
-        classpath 'com.google.firebase:firebase-crashlytics-gradle:3.0.2'
-    }
-}
-
-ext {
-    myValue = kotlin_version
-}
-
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
     }
 }
