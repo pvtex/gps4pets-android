@@ -1,8 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">GPS4PETS</string>
     <string name="label_server">Server</string>
-    <string name="label_info">DIese Seite wird nur einmal angezeigt. Nach dem Klick auf den Button wird die Server Adresse in Ihren Präferenzen gespeichert. Um diese zu ändern löschen Sie die App Daten im App Manager</string>
+    <string name="label_info">Diese Seite wird nur einmal angezeigt. Nach dem Klick auf den Button wird die Server Adresse in Ihren Präferenzen gespeichert. Um diese zu ändern löschen Sie die App Daten im App Manager</string>
     <string name="button_start">Start</string>
+    <string name="notification_channel_id">default</string>
     <string name="error_connection">Server Verbindung fehlgeschlagen</string>
     <string name="file_browser">Datei Browser</string>
     <string name="notification_channel">Default</string>
