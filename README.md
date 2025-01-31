@@ -1,6 +1,7 @@
 # GPS4PETS Android App 
 based on [Traccar Manager for Android](https://www.traccar.org/manager)
 
+# moved to [GPS4PETS REPO](https://github.com/GPS4PETS/Android-App)
 
 ## Overview
 
